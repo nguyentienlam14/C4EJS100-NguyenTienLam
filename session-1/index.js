@@ -1,1 +1,2 @@
-alert ('chao moi nguoi');
+let name = prompt('nhap ten vao');
+alert('chao may '+ name);
