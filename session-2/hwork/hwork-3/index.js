@@ -44,8 +44,8 @@ console.log("\n");
 
 console.log("E. A sequence of numbers, starting from c, ending before n, stepping by 3, c and n entered by user");
 {
-    n = prompt ('enter n');
-    c = prompt ('enter c');
+    var n = Number(prompt ('enter n'));
+    var c = Number(prompt ('enter c'));
     for (let i = c; i < n; i+=3)
     console.log(i);
 }
@@ -54,9 +54,11 @@ console.log("\n");
 
 console.log("F. A sequence of numbers, starting from c, ending before n, stepping by s. c, n and s entered by user");
 {
-    c = prompt ('enter c');
-    n = prompt ('enter n');
-    let f = prompt ('enter f');
-    for ( let i = c; i < n; i += f)
-    console.log(i);
+    var c = prompt ('enter c');
+    var n = prompt ('enter n');
+    var f = prompt ('enter f');
+    do {
+        console.log(c);
+        c += s;
+    } while (c < n)
 }

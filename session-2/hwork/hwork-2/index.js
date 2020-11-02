@@ -8,4 +8,4 @@ console.log("Boolen là một kiểu dữ liệu trong JS.");
 console.log("\n");
 
 console.log("B. What results in Boolean?");
-console.log("kết quả trong boolen chỉ hiển thị kết quả true hơacj faltt");
+console.log("kết quả trong boolen chỉ hiển thị kết quả true hoặc false");

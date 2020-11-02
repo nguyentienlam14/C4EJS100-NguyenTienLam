@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background: url(https://esportsjunkie.com/wp-content/uploads/2019/05/CSGO-Banner-24-3-2019.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+    
+
+}
+#menu ul{
+    list-style-type: none;
+    text-align: center;  
+    
+}
+#menu ul li{
+    display: inline-table;
+    width: 120px;
+}
+#menu ul li a:hover{
+    background-color: teal;
+
+
+}
+
+#menu ul li a.active{
+    color: rgb(255, 1, 1);
+}
+.ak{
+    margin-top: 50px;
+    margin-left: 600px;
+    font-size: 25px;
+    text-transform: uppercase;
+  
+    
+}
