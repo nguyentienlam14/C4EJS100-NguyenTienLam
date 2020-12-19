@@ -1,0 +1,28 @@
+body {
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 auto;
+    border:1px solid black;
+    margin-top: 100px;
+}
+h3{
+    font-size: 30px;
+    
+}
+button{
+    padding: 5px
+}
+input{
+    padding: 5px;
+}
+
+.header{
+    background:orange;
+    color: blanchedalmond;
+}
+
